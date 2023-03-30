@@ -1,0 +1,25 @@
+ninja: Entering directory `/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/.cxx/cmake/release/x86_64'
+[1/2] Building C object CMakeFiles/code_count.dir/code_count.c.o
+/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/src/main/cpp/code_count.c:117:12: warning: incompatible pointer types returning 'u8 (*)[len * 2 + 2]' from a function with result type 'u8 *' (aka 'unsigned char *') [-Wincompatible-pointer-types]
+    return &encrypt_bytearray;
+           ^~~~~~~~~~~~~~~~~~
+/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/src/main/cpp/code_count.c:117:13: warning: address of stack memory associated with local variable 'encrypt_bytearray' returned [-Wreturn-stack-address]
+    return &encrypt_bytearray;
+            ^~~~~~~~~~~~~~~~~
+/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/src/main/cpp/code_count.c:178:1: warning: control may reach end of non-void function [-Wreturn-type]
+}
+^
+/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/src/main/cpp/code_count.c:223:55: warning: passing 'u8 [length * 2 + 2]' to parameter of type 'const jbyte *' (aka 'const signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    (*env)->SetByteArrayRegion(env,array,0,length*2+2,resultArray);
+                                                      ^~~~~~~~~~~
+/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/src/main/cpp/code_count.c:235:38: warning: passing 'jbyte *' (aka 'signed char *') to parameter of type 'u8 *' (aka 'unsigned char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    u8 *resultPoint = APP_data_count(byte_array,arraylen);
+                                     ^~~~~~~~~~
+/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/src/main/cpp/code_count.c:150:24: note: passing argument to parameter 'buf' here
+u8* APP_data_count(u8 *buf,u8 len)
+                       ^
+/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/src/main/cpp/code_count.c:244:46: warning: passing 'u8 [6]' to parameter of type 'const jbyte *' (aka 'const signed char *') converts between pointers to integer types with different sign [-Wpointer-sign]
+    (*env)->SetByteArrayRegion(env,array,0,6,resultArray);
+                                             ^~~~~~~~~~~
+6 warnings generated.
+[2/2] Linking C shared library /Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/build/intermediates/cmake/release/obj/x86_64/libcode_count.so

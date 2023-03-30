@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/src/main/cpp/CMakeLists.txt",
+    "/Users/manmohanchauhan/Library/Android/sdk/ndk/20.0.5594570/build/cmake/android.toolchain.cmake",
+    "/Users/manmohanchauhan/Library/Android/sdk/ndk/20.0.5594570/build/cmake/platforms.cmake"
+  ],
+  "cleanCommands": [
+    "/Users/manmohanchauhan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/.cxx/cmake/release/x86\" clean"
+  ],
+  "buildTargetsCommand": "/Users/manmohanchauhan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja  -C \"/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/.cxx/cmake/release/x86\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "code_count-Release-x86": {
+      "artifactName": "code_count",
+      "buildCommand": "/Users/manmohanchauhan/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja -C \"/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/.cxx/cmake/release/x86\" code_count",
+      "abi": "x86",
+      "output": "/Users/manmohanchauhan/Desktop/HalonixDJSpeaker_V5.1.1/app/build/intermediates/cmake/release/obj/x86/libcode_count.so",
+      "runtimeFiles": []
+    }
+  }
+}

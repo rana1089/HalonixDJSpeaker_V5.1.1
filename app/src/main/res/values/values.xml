@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Halonix DJ Speaker</string>
+    <string name="blue_scan_text">扫描中...</string>
+    <string name="blue_scan_text_hint">请将手机靠近您的蓝牙设备</string>
+    <string name="blue_scan_acti_skip">进入后台搜索</string>
+    <string name="connect">连接</string>
+    <string name="music">音乐</string>
+    <string name="maxLight">最亮</string>
+    <string name="moreSceneSet">更多</string>
+    <string name="title_text_2">音乐播放</string>
+    <string name="commonUse">通用</string>
+    <string name="scence">DJ Themes</string>
+    <string name="add">新增</string>
+    <string name="back">返回</string>
+    <string name="setting">设置</string>
+    <string name="colorSelect">颜色选择色盘</string>
+    <string name="lightSet">亮度设置</string>
+    <string name="musicLightModeSet">音乐闪烁模式设置</string>
+
+    <string name="powerSource">电源开关</string>
+    <string name="lightSwith">灯光开关</string>
+    <string name="edit">编辑</string>
+    <string name="delete">删除</string>
+    <string name="scenceName">场景名称:</string>
+    <string name="colorSet">场景颜色设置:</string>
+    <string name="backgroundColorChange">背景颜色跟随色值变化</string>
+    <string name="OK">确定</string>
+
+    <string name="cancel">取消</string>
+    <string name="ok">是</string>
+    <string name="confirm">确定</string>
+    <string name="to_setting">去设置</string>
+    <string name="tips">提示</string>
+    <string name="exit">退出</string>
+    <string name="open_gpg_tip">应用需要GPS功能，请打开定位服务才可继续</string>
+    <string name="connect_bluetooth_tip">连接DJ扬声器灯泡以进行音乐流传输。如果已连接，请按取消。</string>
+
+    <string name="rainbow">Rainbow</string>
+    <string name="heartbeat">Heartbeat</string>
+    <string name="disco">Disco</string>
+    <string name="romantic">Romantic</string>
+    <string name="flash">Flash</string>
+</resources>
